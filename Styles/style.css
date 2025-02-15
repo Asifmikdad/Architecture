@@ -1,14 +1,16 @@
 /* Import Font */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* Import font end */
 
+/* imported font style start */
 .work-sans-font {
     font-family: "Work Sans", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
   }
-
+/* Imported font style end */
 
   /* shared styles start */
 .display-flex{
@@ -22,14 +24,19 @@
 /* Shared styles end */
 
 /* Navbar style start */
+.brand{
+    font-weight: 700px;
+    font-size: 2rem;
+}
 
   .navbar{
     display: flex;
   }
 
-  
+
   .navbar{
     justify-content: space-between;
+    align-items: center;
   }
 
   .nav-item{
@@ -42,4 +49,12 @@
     color: black;
   }
 /* Navbar styles end */
+
+/* Banner styles start */
+
+.banner, .navbar{
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
  
