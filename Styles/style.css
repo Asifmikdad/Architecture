@@ -1,3 +1,4 @@
+/* Import Font */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
@@ -7,3 +8,38 @@
     font-weight: 400;
     font-style: normal;
   }
+
+
+  /* shared styles start */
+.display-flex{
+    display: flex;
+}
+
+.bg-light
+    {
+        background-color: #ecf0c6;
+    }
+/* Shared styles end */
+
+/* Navbar style start */
+
+  .navbar{
+    display: flex;
+  }
+
+  
+  .navbar{
+    justify-content: space-between;
+  }
+
+  .nav-item{
+    list-style: none;
+    margin-right: 30px;
+  }
+
+  .nav-link{
+    text-decoration: none;
+    color: black;
+  }
+/* Navbar styles end */
+ 
