@@ -21,6 +21,17 @@
     {
         background-color: #ecf0c6;
     }
+
+.btn-primary{
+    background-color: #f9a826;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+    font-weight: 600px;
+    font-size: 1.25rem;
+}
 /* Shared styles end */
 
 /* Navbar style start */
@@ -37,6 +48,7 @@
   .navbar{
     justify-content: space-between;
     align-items: center;
+    
   }
 
   .nav-item{
@@ -57,4 +69,34 @@
     margin: 0 auto;
 
 }
- 
+
+.banner-content{
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+
+.banner-title{
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.banner-img{
+  width: 100%;
+  height: auto;
+}
+
+/* Responsive banner */
+
+@media screen and (max-width: 576px){
+  .navbar, .nav-link{
+    flex-direction: column;
+    }
+  }
+  
+
+
+
+ /* Banner styles end */
