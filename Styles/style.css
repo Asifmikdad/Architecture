@@ -138,3 +138,33 @@ main > section{
  }
 
  /* Team and features related styles end */
+
+ .fact-number{
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 10px;
+ }
+
+ .fact-name{
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 10px;
+ }
+
+ .fact-card{
+  border: 1px solid #f9a826;
+  width: 240px;
+  height: 240px;
+  border-radius: 8px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+ }
+ .fact-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+ }
+ .fact-description{
+  max-width: 540px;
+ }
