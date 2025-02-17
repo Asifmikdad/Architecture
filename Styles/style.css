@@ -13,6 +13,11 @@
 /* Imported font style end */
 
   /* shared styles start */
+main > section{
+  margin: 130px 0;
+}
+
+
 .display-flex{
     display: flex;
 }
@@ -88,15 +93,48 @@
   height: auto;
 }
 
-/* Responsive banner */
+/* Responsive */
 
 @media screen and (max-width: 576px){
-  .navbar, .nav-link{
+  .navbar,
+  .nav-link,
+  .teams{
     flex-direction: column;
     }
+  
+}
+@media  screen and (max-width: 576px){
+  .team-img-container{
+    grid-template-columns: repeat(1, 1fr);
   }
   
+}
 
 
 
  /* Banner styles end */
+
+ /* Team and features related styles start */
+
+ .features-title{
+  font-weight: 700;
+  font-size: 2.5rem;
+ }
+
+ .teams{
+  align-items: center;
+ }
+
+ .team-img-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+ }
+
+ .our-features{
+  margin-left: 100px;
+  max-width: 530px;
+  
+ }
+
+ /* Team and features related styles end */
