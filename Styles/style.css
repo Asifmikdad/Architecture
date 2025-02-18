@@ -138,6 +138,32 @@ main > section{
   
  }
 
+ /* Features section style start */
+
+ .features{
+  display: flex;
+  gap: 140px;
+ }
+
+ #feature-section-title{
+  border-left: 5px solid #f9a826;
+  padding-left: 21px;
+ }
+
+ .feature-card-container .features-title{
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 0px;
+ }
+ .feature-card-container{
+  padding: 30px;
+  box-shadow: 0 4px 30px 0 rgba(238, 237, 237, 0.923);
+  margin-bottom: 20px;
+  border-radius: 8px;
+ }
+ /* Features section style end */
+
  /* Team and features related styles end */
 
  .fact-number{
